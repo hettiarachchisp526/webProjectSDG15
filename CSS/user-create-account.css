@@ -1,0 +1,77 @@
+*{
+    font-family: Roboto;
+font-style: Thin;
+Font size: 20px;
+Line height: 23px;
+Line height: 100%;
+Align: Left;
+Vertical align: Center;
+Fill: Solid #000000 ;
+}
+a{color:black;
+    font-weight: bold; 
+    text-decoration: none;  
+ }
+
+  h1{
+font-family: Roboto;
+font-style: Regular;
+font-size: 36px;
+Line-height: 42px;
+Line-height: 100%;
+
+
+       }
+ 
+ table{
+     
+     width:80%;
+     height:70%;
+     text-align:left;
+     cellspacing:0;
+ }
+  .rec{
+    height:70% ;
+   padding-left:20;
+   margin-left: auto;
+   margin-right:auto ;
+    width:40% ;
+    background-color:#9CEEA6
+  }
+ #photo{
+             height:100px;
+             width:110px;
+             border-radius:50%;
+             overflow:hidden;
+               }
+      #file{
+           display:none;
+           }
+
+      #uploadButton{
+            height:25px;
+             width:150px;
+             float:center;
+             background:#309417;
+             color:wheat;
+             line-height:100%;
+             font-size:20px;
+             font-family:Roboto;
+             font-style:bold;
+             cursor:pointer;
+             border-radius:0.2em;
+             overflow:hidden;
+                 }
+
+       #submit{
+               background:#309417;
+               color:wheat;
+              border-radius:0.3em;
+             overflow:hidden;
+               }
+                
+         #cancel{
+                background:rgba(140, 146, 149, 0.75);
+                border-radius:0.3em;
+             overflow:hidden;
+                 }
