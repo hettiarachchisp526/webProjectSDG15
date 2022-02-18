@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    background-color:  #E5E5E5;
+    height: 1500px;;
+    width: 100%;
+}
+.photo6 {
+    position: absolute;
+    width: 325px;
+    height: 325px;
+    left: 200px;
+    top: 256px;
+
+
+}
+.GREENLAND{
+    position: absolute;
+width: 379px;
+height: 71px;
+left: 500px;
+top: 360px;
+
+font-family: Fenix;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+
+
+color: #309417;
+
+}
+.heading1{
+    position: absolute;
+width: 237px;
+height: 42px;
+left: 560px;
+top: 520px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+}
+.li{
+    padding-top: 0.3%;
+    height: 100%;
+    margin-top: -66%;
+}
+
+.para1{
+ 
+position: absolute;
+width: 616px;
+height: 48px;
+left: 265px;
+top: 650px;
+
+font-size: 140%;
+}
+.para2{
+
+position: absolute;
+width: 731px;
+height: 56px;
+left: 265px;
+top: 700px;
+font-size: 140%;
+
+}
+
+.para3{
+    position: absolute;
+width: 732px;
+height: 56px;
+left: 265px;
+top: 770px;
+font-size: 140%;
+
+
+}
