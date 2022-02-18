@@ -1,81 +1,62 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="..\css\user-create-account.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../CSS/user-create-account.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
 </head>
 <body>
-<br><br><br><br><br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            
+            <form id="f1" method="POST" name="frm1"  action="">
+                <h2 class="text-center pt-3">Create Your Profile</h2>
+        <div class="form-details">
+                <div class="profile-pic-div">
+                    <img src="../IMAGES/prf1.png" id="prfphoto" name="prfimage">
+                    <input type="file" id="file" required><br>
+                    <label for="file" id="uploadButton" class="mt-2">Choose Photo</label>
+                </div>
+         <div class="my-3">
+            <label for="">First Name </label>
+            <input type="text" name="fname" required >
+         </div>
+         <div class="my-3">
+            <label for="">Last Name</label>
+            <input type="text" name="lname" required >
+         </div>
+         <div class="my-3">
+            <label for="">E-mail</label>
+            <input type="text" name="email" required>
+         </div>
+         <div class="my-3">
+            <label for="">Password</label>
+            <input type="password" name="pass" id="passid" required>
+         </div>
+         <div class="my-3">
+            <label for="">Confirm Password</label>
+            <input type="password" name="cpass" id="cpassid" required>
+         </div>
+         <div class="my-3">
+            <input type="submit" value="Create Profile" onclick="validateform()" id="submit" >  
+            <input type="reset" value="Cancel" id="cancel" >
+         </div>
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
 
-<h1><center>Edit Your Profile</center><h1>
-    <form id=f1 name="frm1" method="POST" onSubmit="validate();">
-        <div class="rec">
-    <table>
-    <tr>
-       <td><div class="profile-pic-div">
-    <img src="..\IMAGES\prf1.png" id="photo">
-    <input type="file" id="file">
-    
-    </div>
-    </td>
-    </tr>
-    <tr>
-          <td colspan="4"><label for="file" id="uploadButton">Choose Photo</label><td>
-    </tr>
-    <tr>
-           <th>First Name</th>
-           <td><input type="text" name="fname"></td>
-    
-           <th>Last Name</th>
-           <td><input type="text" name="lname"></td>
-    </tr>
-        
-    <tr>
-        <th>E-Mail</th>
-        <td><input type="text" name="email"></td>
-        <td>&nbsp;</td><td>&nbsp;</td>
-    </tr>
-    <tr>
-           <th>Password</th>
-           <td><input type="password" name="pass"></td>
-           <td>&nbsp;</td><td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td><a href="">Email Settings</a></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td><td>&nbsp;</td>
-    </tr>
-    
-    <tr>
-        <td colspan="4">Please confirm your email before you can subscribe to our newsletter</td>
-        
-    </tr>
-    <tr>
-        <td><a href="">Password</a></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td><td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td colspan="4">Change Password</td>
-        
-        
-    </tr>
-    <tr>
-        <td colspan="4"><a href="">Delete your Account</a></td>
-        
-    </tr>
-    <tr>
-        <td colspan="4">Delete your account(You can't undo this!)</td>
-        
-    </tr>
-    
-    
-    <tr>
-       <td><input type="submit" value="Update Profile" id="submit"></td>
-        <td><input type="reset" value="Cancel" id="cancel"></td>
-        <td>&nbsp;</td><td>&nbsp;</td>
-    </tr>
-    </table>
-    
-    </div>
-    </form>
-     </body>
-    </html>
+    <script language="javascript" type="text/javascript" src="../JS/user-create-account.js">
+
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+</body>
+</html>
