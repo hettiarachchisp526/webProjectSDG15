@@ -9,6 +9,9 @@ vertical-align: Center;
 Fill: Solid #000000 ;
 
 }
+.bg-col{
+  background-color: #CCFACD;
+}
 
 #prfphoto{
            height:100px;
