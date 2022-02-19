@@ -1,198 +1,28 @@
-
-	* {
-		margin: 0;
-		padding: 0;
-	}
-
-	.navbar {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		position: sticky;
-		top: 0;
-		cursor: pointer;
-		width: 100%;
-		height: 100px;
-	}
-
-	.background {
-		background: #024609;
-		background-blend-mode: darken;
-		background-size: cover;
-	}
-
-	.nav-list {
-		width: 100%;
-		display: flex;
-		align-items: center;
+/* nav bar background clour edit */
+.bg{
+	background-color: #024609;
+  }
+  .navbar-brand{
+	margin: 0;
+  }
+  /* logo image size edit */
+  .logo img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+  }
+	/* point viwe edit */
+  #navbarSupportedContent li a:hover{
+	padding: 20px 15px;
+	  background: rgb(17, 194, 11);
+	  transition: 0.5s;
+	  text-transform: uppercase;
+	  text-decoration: none;
+	  border-radius: 15px;
+	  border: 2px solid rgb(228, 253, 3);
+	 border-radius: 9px;
 	
-		font-size: 25px;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	}
-
-	.logo {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		
-	}
-
-	.logo img {
-		width: 150px;
-		height: 150px;
-		border-radius: 50px;
-	}
-
-	.nav-list li {
-		list-style: none;
-		padding: 26px 30px;
-	}
-
-	.nav-list li a {
-		text-decoration: none;
-		color: white;
-	}
-
-	.nav-list li a:hover {
-		 padding: 20px 15px;
-         background: rgb(17, 194, 11);
-         transition: 0.5s;
-         text-transform: uppercase;
-         text-decoration: none;
-		 border-radius: 15px;
-		 border: 2px solid rgb(228, 253, 3);
-		 border-radius: 9px;
-	}
-	.picpro{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin-left: -130px;
-	}
-	.picpro img{
-		width: 130px;
-		height: 130px;
-		border-radius: 50px;
-	}
-
-	.rightnav {
-		width: 30%;
-		text-align: right;
-		margin-right: 3%;
-		margin-top: 0%;
-	}
-
-	#search {
-		padding: 5px;
-		font-size: 20px;
-		border: 2px solid rgb(82, 240, 9);
-		border-radius: 9px;
-		margin-top: 15px;
-		margin-left: -500px;
-		
-	}
-	.btn {
-		padding: 8px 25px;
-		margin: 10px 10px;
-		border: 2px solid white;
-		border-radius: 15px;
-		background: none;
-		color: white;
-		cursor: pointer;
-		margin-top: 2.5px;
-	}
-
-	.btn-sm {
-		padding: 6px 10px;
-		vertical-align: middle;
-	}
-
-
-	.firstsection {
-		background-color: green;
-		height: 400px;
-	}
-
-	.secondsection {
-		background-color: blue;
-		height: 400px;
-	}
-
-	.box-main {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		color: black;
-		max-width: 80%;
-		margin: auto;
-		height: 80%;
-	}
-
-	.firsthalf {
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.secondhalf {
-		width: 30%;
-	}
-
-	.secondhalf img {
-		width: 70%;
-		border: 4px solid white;
-		border-radius: 150px;
-		display: block;
-		margin: auto;
-	}
-
-	.text-big {
-		font-family: 'Piazzolla', serif;
-		font-weight: bold;
-		font-size: 35px;
-	}
-
-	.text-small {
-		font-size: 18px;
-	}
-
-	
-
-	.section {
-		height: 400px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		max-width: 90%;
-		margin: auto;
-	}
-
-	.section-Left {
-		flex-direction: row-reverse;
-	}
-
-	.paras {
-		padding: 0px 65px;
-	}
-
-	.thumbnail img {
-		width: 250px;
-		border: 2px solid black;
-		border-radius: 26px;
-		margin-top: 19px;
-	}
-
-	.center {
-		text-align: center;
-	}
-
-	.text-footer {
-		text-align: center;
-		padding: 30px 0;
-		font-family: 'Ubuntu', sans-serif;
-		display: flex;
-		justify-content: center;
-		color: white;
-	}
-
+  }  
+  .nav-item{
+	font-size: 20px;
+  }
