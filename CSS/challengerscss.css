@@ -1,217 +1,161 @@
-#content{
-  background-color:  #E5E5E5;
-  height: 1500px;;
-  width: 100%;
+body{
+    background-color: rgb(229, 247, 232);
 }
-#hd{
-position: absolute;
-width: 100%;
+.rule{
+    position: absolute;
+width: 1535px;
 height: 135px;
 left: 0px;
-top: 18%;
+top: 0px;
+
 background: #54FA64;
 }
-.hdin{
-    position: absolute;
-width: 544px;
-height: 54px;
-left: 174px;
-top: 30%;
-
-font-family: Aclonica;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 54px;
-
-color: #FFFFFF;
+.mmm{
+    padding-left: 50%;
 }
-.Challenges {
+.hd{
+
+    position: absolute;
+    width: 544px;
+    height: 54px;
+    left: 174px;
+    top:35px;
+    
+    font-family: Aclonica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 54px;
+    
+    color: #FFFFFF;
+    
+    
+}
+.photo3{
+    position: absolute;
+width: 219px;
+height: 219px;
+left: 650px;
+top: -50px;
+
+background: url(15l-01.png);
+}
+.riben1{
     position: absolute;
     width: 600px;
     height: 70px;
     left: 120px;
-    top: 363px;
+    top: 170px;
     background: #000000;
     position: absolute;
-
+    position: absolute;
 }
-.Solutions{
-position: absolute;
-width: 603px;
+.challengers{
+
+text-align: center;
+font-family: Aclonica;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 27px;
+margin-top: 12px;
+color: #FFFFFF; }
+
+
+.riben2{
+    position: absolute;
+width: 600px;
 height: 70px;
 left: 720px;
-top: 363px;
+top: 170px;
+text-align: center;
 
-background:#309417;
+background: #309417;
+
+
+
 }
-.Solutionsin{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    left: 45%;
-    top: 30%;
-    font-family: Aclonica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 27px;
-    
-    color: #FFFFFF;
-}
-.Challengesin{
-    position: absolute;
-    font-family: Aclonica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 27px;
-    left: 40%;
-    top: 30%;
-    color: #FFFFFF
-    
-}
-  .para1{
-    position: absolute;
-    width: 199px;
-    height: 168px;
-    left: 15%;
-    top: 501;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 20px;
-   
-    
-     color: #050505;
-    
-  }
-
-  .para2{
-    position: absolute;
-    width: 278px;
-    height: 196px;
-    left: 5%;
-    top: 720px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: right;
-    
-    color: #000000;
-    
-  }
-    
-  .para3{
-    position: absolute;
-    width: 302px;
-    height: 140px;
-    left: 4%;
-    top: 981px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: right;
-    
-    color: #000000;
-    
-  }
-
-  .para4{
-    position: absolute;
-    width: 212px;
-    height: 140px;
-    left: 1090px;
-    top: 501px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 20px;
-    
-    color: #309417;
-    
-  }
-
-  .para5{
-    position: absolute;
-    width: 262px;
-    height: 112px;
-    left: 1091px;
-    top: 740px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 20px;
-    
-    color: #309417;
-  }
-    .para6{
-        position: absolute;
-width: 237px;
-height: 112px;
-left: 1093px;
-top: 981px;
-
-font-family: Roboto;
+.solutions{
+    text-align: center;
+font-family: Aclonica;
 font-style: normal;
-font-weight: bold;
-font-size: 15px;
-line-height: 20px;
+font-weight: normal;
+font-size: 40px;
+line-height: 27px;
+margin-top: 12px;
+color: #FFFFFF; }
 
-color: #309417;
 
-
-    
-    
-  }
-  .photo3{
-    position: absolute;
-    width: 219px;
-    height: 219px;
-    left: 45%;
-    top: 12%;
-    
-  }
- .photo{
+.photo1{
     position: absolute;
 width: 646px;
 height: 180px;
-left: 413px;
-top: 501px;
+margin-left: 400px;
+margin-top: -185px;
 
 
- }
- .photo1{
+/* background: url(15_Life on land_FINAL-01.jpg);  */
+
+}
+.para1{
+   
+
+margin-left: 70px;
+margin-top: 270px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+
+color: #000000;
+
+
+}
+.para2{
+    margin-left: 1070px;
+    margin-top: -220px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #309417;
+
+}
+.para3{
+    margin-left: 70px;
+margin-top: 75px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+
+color: #000000;
+}
+
+.para4{
+    margin-left: 1070px;
+    margin-top: -298px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #309417;
+}
+
+.photo2{
     position: absolute;
     width: 646px;
-    height: 183px;
-    left: 413px;
-    top: 734px;
- }
- .photo2{
-    position: absolute;
-    width: 646px;
-    height: 188px;
-    left: 420px;
-    top: 981px;
- }
-
-    position: absolute;
-width: 1446px;
-height: 475px;
-left: 0px;
-top: 1266px;
-
-background: #309417;
+    height: 180px;
+    left: 390px;
+    top: 580px;
+    text-align: center;
+    
+}
