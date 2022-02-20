@@ -1,7 +1,13 @@
 /* nav bar background clour edit */
 .bg{
 	background-color: #024609;
+  
   }
+
+.paddwn{
+  padding-top: 116px;
+}
+
   .navbar-brand{
 	margin: 0;
   }
@@ -13,7 +19,7 @@
   }
 	/* point viwe edit */
   #navbarSupportedContent li a:hover{
-	padding: 20px 15px;
+	padding: 20px 15px; 
 	  background: rgb(17, 194, 11);
 	  transition: 0.5s;
 	  text-transform: uppercase;
@@ -26,14 +32,19 @@
   .nav-item{
 	font-size: 20px;
   }
-/* ________________________main section css_____________________________ */
-/* _____________________________________________________________________ */
+
+  /*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
 #hero {
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     background-color: rgba(9, 9, 9, 0.8);
+    
     overflow: hidden;
     position: relative;
+height: 512px;
+    
   }
   #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
     background-size: cover;
@@ -47,7 +58,7 @@
   }
   #hero .carousel-item::before {
     content: "";
-    background-color: rgba(45, 103, 60, 0.2);
+    background-color: rgba(45, 103, 60, 0.274);
   }
   #hero .carousel-container {
     display: flex;
@@ -87,8 +98,10 @@
   #hero .carousel-inner .carousel-item-next.carousel-item-start,
   #hero .carousel-inner .carousel-item-prev.carousel-item-end {
     opacity: 1;
-    transition: 0.5s;
+    transition: 0.8s;
   }
+
+  /* normal show next and back icon */
   #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
     background: none;
     font-size: 30px;
@@ -98,17 +111,19 @@
     background: rgba(255, 255, 255, 0.2);
     border-radius: 50px;
     transition: 0.3s;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(250, 252, 249);
     width: 54px;
     height: 54px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
+  /* after click next and back icon */
   #hero .carousel-control-next-icon:hover, #hero .carousel-control-prev-icon:hover {
-    background: rgba(255, 255, 255, 0.425);
-    color: rgba(255, 255, 255, 0.8);
+    background: rgba(110, 212, 14, 0.425);
+    color: rgba(11, 46, 3, 0.568);
   }
+  /* 3 dot slide change */
   #hero .carousel-indicators li {
     cursor: pointer;
     background: #fff;
@@ -120,10 +135,12 @@
     opacity: 0.6;
     transition: 0.3s;
   }
+  /* show slide doi button */
   #hero .carousel-indicators li.active {
     opacity: 100;
     background: #5cb874;
   }
+  /* read more button */
   #hero .btn-get-started {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
@@ -165,4 +182,48 @@
       height: 120vh;
     }
   }
-  /* ___________________________end main section css_______________ */
+
+  /* ---------------------end home slide------------------------ */
+
+  .sdg15row p{
+    
+      animation-duration: 10s;
+      animation-name: slidein;
+      animation-iteration-count: infinite;
+
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      /* font-style: normal;
+      font-weight: normal; */
+      font-size: 48px;
+      line-height: 54px;
+
+    }
+
+    @keyframes slidein {
+      from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+    /* *******************************callenge button start************************************ */
+    .bs-example{
+    	margin: 0px;
+    }
+    .chalrow{
+      background-color: #54FA64;
+    }
+    .solo{
+text-align: center;
+    }
+    .chael{
+
+    }
+p.clikchl{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
