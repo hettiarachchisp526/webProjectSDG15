@@ -227,3 +227,69 @@ p.clikchl{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  
 }
+
+/* ________________start coment upload about as_________________________ */
+.services .icon-box {
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: rgb(255, 255, 254);
+  box-shadow: 0px 5px 90px 0px rgba(212, 149, 13, 0.2);
+}
+.services .icon-box .icon {
+  margin: 0 auto;
+  /* ___________________________________size shape */
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
+.services .icon-box .icon i {
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
+}
+
+
+/* ---------unde shepes clour------------ */
+.services .icon-box .icon svg path {
+  transition: 0.5s;
+  fill: #f5f5f5;
+}
+.services .icon-box h4 {
+  font-weight: 600;
+  margin: 10px 0 1px 0;
+  font-size: 22px;
+}
+.services .icon-box h4 a {
+  color: #222222;
+  transition: ease-in-out 0.3s;
+}
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+/* big box */
+.services .icon-box:hover {
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0px 0 35px 0 rgb(103, 243, 117);
+}
+
+
+.gemsic img{
+width: 50%;
+height: 50%;
+  
+}
+.commic img{
+  width: 50%;
+  height: 50%;
+}
+.upupic img{
+  width: 50%;
+  height: 50%;
+} 
