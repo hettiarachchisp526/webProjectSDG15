@@ -332,3 +332,25 @@ font-size: 2vw;
   background-color:rgb(162, 160, 157);
 }
 /* ____________________end call__________________________________________ */
+
+/* MAP */
+.map-container-4{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container-4 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+  .mazz{
+      position: relative;
+      text-align: center;
+  color: #54FA64;
+    
+  }
+  /* __________________________black count_______________ */
