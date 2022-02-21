@@ -1,4 +1,103 @@
- /*flipping part css*/
+/*text design part*/
+
+
+.row{
+    
+    background-image: url("../IMAGES/douknow.jpg");
+    height: 400px;
+    color: #FFFCFC;
+}
+h1{
+    font-size: 72px ;
+    color: #FFFFFF;
+   
+}
+
+.pt{
+ 
+   width: 350px;
+    font-style: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+
+
+.sec1{
+    color: #FFB800;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-style: bold;
+    line-height: 56px;
+    line-height: 100%;
+    text-align: left;
+}
+
+
+#slide{
+    position: absolute;
+    left: -1400px;
+    width: 300px;
+    height: 100px;
+    padding-left: 100px;
+    
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.5s forwards;
+    animation-delay: 3s;
+}
+#slide2{
+    position: absolute;
+    left: -1400px;
+    width: 600px;
+    height: 100px;
+    padding-left: 600px;
+
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+#slide3{
+    position: absolute;
+    left: -1400px;
+    width: 300px;
+    height: 100px;
+    padding-left: 1000px;
+  
+
+-webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1s;
+    
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+@-webkit-keyframes slide2 {
+    100% { left: 0; }
+}
+
+@keyframes slide2 {
+    100% { left: 0; }
+}
+@-webkit-keyframes slide3 {
+    100% { left: 0; }
+}
+
+@keyframes slide3 {
+    100% { left: 0; }
+}
+  /*flipping part*/
 .flipstart{
     background-color: black;
     height: 400px;
@@ -111,3 +210,7 @@
     border-radius: 2em;
     overflow: hidden;
 }
+
+
+
+
