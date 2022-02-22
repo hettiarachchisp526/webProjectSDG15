@@ -1,195 +1,44 @@
 body{
     background-color: #CCFACD
 }
-.rule{
-    position: absolute;
-width: 1535px;
-height: 135px;
-left: 0px;
-top: 0px;
-
-background: #54FA64;
-}
-.mmm{
-    padding-left: 50%;
-}
-.hd{
-
-    position: absolute;
-    width: 544px;
-    height: 54px;
-    left: 174px;
-    top:35px;
-    
-    font-family: Aclonica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 54px;
-    
-    color: #FFFFFF;
-    
-    
-}
-.photo{
-    position: absolute;
-width: 219px;
-height: 219px;
-left: 650px;
-top: -50px;
-
-background: url(15l-01.png);
-}
-.riben1{
-    position: absolute;
-    width: 650px;
-    height: 70px;
-    left: 120px;
-    top: 170px;
-    background: #000000;
-    position: absolute;
-    position: absolute;
-}
-.challengers{
-
-text-align: center;
-font-family: Aclonica;
-font-style: normal;
-font-weight: normal;
-font-size: 40px;
-line-height: 27px;
-margin-top: 12px;
-color: #FFFFFF; }
+/* 
+.topp{
+  padding-top: 300px;
+} */
 
 
-.riben2{
-    position: absolute;
-width: 650px;
-height: 70px;
-left: 720px;
-top: 170px;
-text-align: center;
-
-background: #309417;
+/* nav bar background clour edit */
+.bg{
+	background-color: #024609;
+  }
+  .navbar-brand{
+	margin: 0;
+  }
+  /* logo image size edit */
+  .logo img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+  }
+	/* point viwe edit */
+  #navbarSupportedContent li a:hover{
+	padding: 20px 15px;
+	  background: rgb(17, 194, 11);
+	  transition: 0.5s;
+	  text-transform: uppercase;
+	  text-decoration: none;
+	  border-radius: 15px;
+	  border: 2px solid rgb(228, 253, 3);
+	 border-radius: 9px;
+	
+  }  
+  .nav-item{
+	font-size: 20px;
+  }
 
 
 
-}
-.solutions{
-    text-align: center;
-font-family: Aclonica;
-font-style: normal;
-font-weight: normal;
-font-size: 40px;
-line-height: 27px;
-margin-top: 12px;
-color: #FFFFFF; }
 
 
-.photo1{
-    position: absolute;
-width: 646px;
-height: 180px;
-margin-left: 400px;
-margin-top: -185px;
 
 
-/* background: url(15_Life on land_FINAL-01.jpg);  */
-
-}
-.para1{
-   
-
-margin-left: 70px;
-margin-top: 270px;
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 28px;
-
-
-color: #000000;
-
-
-}
-.para2{
-    margin-left: 1115px;
-    margin-top: -220px;
-    font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 28px;
-color: #309417;
-
-}
-.para3{
-    margin-left: 70px;
-margin-top: 70px;
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 28px;
-
-
-color: #000000;
-}
-
-.para4{
-    margin-left: 1115px;
-    margin-top: -280px;
-    font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 28px;
-
-color: #309417;
-}
-
-.photo2{
-    position: absolute;
-    width: 646px;
-    height: 180px;
-    left: 400px;
-    top: 570px;
-    text-align: center;
-    
-}
-
-.para5{
-    margin-left: 70px;
-margin-top: 26px;
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 28px;
-
-
-color: #000000;
-}
-
-.photo3{
-    position: absolute;
-    width: 646px;
-    height: 180px;
-    left: 400px;
-    top: 860px;
-    text-align: center;
-    
-}
-
-.para6{
-    margin-left: 1115px;
-    margin-top: -240px;
-    font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 28px;
-
-color: #309417;
-}
