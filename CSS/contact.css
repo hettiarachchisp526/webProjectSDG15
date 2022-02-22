@@ -1,0 +1,17 @@
+.details{
+    position: absolute;
+width: 870px;
+height: 318px;
+left: 126px;
+top: 250px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 75px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
