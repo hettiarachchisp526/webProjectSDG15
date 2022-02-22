@@ -1,3 +1,37 @@
+
+
+/* header*/
+/* nav bar background clour edit */
+.bg{
+	background-color: #024609;
+  }
+  .navbar-brand{
+	margin: 0;
+  }
+  /* logo image size edit */
+  .logo img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+  }
+	/* point viwe edit */
+  #navbarSupportedContent li a:hover{
+	padding: 20px 15px;
+	  background: rgb(17, 194, 11);
+	  transition: 0.5s;
+	  text-transform: uppercase;
+	  text-decoration: none;
+	  border-radius: 15px;
+	  border: 2px solid rgb(228, 253, 3);
+	 border-radius: 9px;
+	
+  }  
+  .nav-item{
+	font-size: 20px;
+  }
+
+  /*end*/
+
 *{
   font-family: Roboto;
 font-style: Thin;
@@ -63,7 +97,7 @@ height: 80%;
 transform: translate(-50%,-50%);
 background-color: #9CEEA6;
 padding: 30px;
-margin-top: 8%;
+margin-top: 20%;
 
 }         
 label{
