@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+html,body{
+    display: grid;
+    height: 100%;
+    text-align: center;
+    place-items: center;
+}
+
+.container{
+    height: 350px;
+    width: 430px;
+}
+
+.container .wrapper{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.wrapper .active{
+    border: none;
+}
+
+.wrapper .image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .image img{
+    height: 100%;
+    width: 100%;
+object-fit: cover;
+}
+
+.wrapper .icon{
+    font-size: 100px;
+    color: #9658fe;
+}
+.wrapper .text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #58587B;
+}
+.wrapper #cancel-btn{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #9658fe;
+    display: none;
+}
+.wrapper.active:hover #cancel-btn{
+    display: block;
+
+}
+.wrapper #cancel-btn:hover{
+    color: #e74c3c;
+}
+.wrapper .active:hover .file-name{
+    display: block;
+}
+.wrapper .file-name{
+ position: absolute;
+ bottom: 0px;
+ width: 100%;
+ color: #fff;
+ padding: 8px 0;
+ font-size: 18px;
+ display: none;
+ background: linear-gradient(135deg, #3a8ffe 0%,#9658fe 100%);
+}
+.container #custom-btn{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    display: block;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(135deg, #3a8ffe 0%,#9658fe 100%);
+}
+
+.container #subimg{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    display: block;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(135deg, #3a8ffe 0%,#9658fe 100%);
+}
