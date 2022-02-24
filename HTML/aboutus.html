@@ -26,7 +26,8 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css" >
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -35,6 +36,13 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+<!-- arlet  -->
+<script src="../JS/homejs.js">
+
+</script>
+
+
     <!--Own Stylesheet link-->
     <link rel="stylesheet" href="../CSS/aboutus.css" />
 
@@ -86,32 +94,37 @@
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
  
                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="HomePage.html">Home</a>
                  </li>
  
                  <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link active" href="aboutus.html">About us</a>
                  </li>
  
                  <li class="nav-item">
-                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Service</a>
+                    <a class="nav-link " href="services_Ude.html" tabindex="-1" aria-disabled="true">Service</a>
                  </li>
  
          <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                    <a class="nav-link" href="contact us.html" tabindex="-1" aria-disabled="true">Contact</a>
                  </li>
                  <!-- dropdown icon -->
                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Profile
-                    </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="#">Create Account</a></li>
-                              <li><a class="dropdown-item" href="#">Log in</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Log out</a></li>
-                        </ul>
-              </ul>
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Profile
+                  </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#" onclick="profile()">Create Account</a></li>
+                            <li><a class="dropdown-item" href="#">Log in</a></li>
+                            <li><hr class="dropdown-divider"></li>
+
+                            <li><a class="dropdown-item" href="#">Log out</a></li>
+                            <div>
+                            <li><a class="dropdown-item" href="#">Your profile</a></li>
+                           
+                           </div>
+                      </ul>
+            </ul>
               <!-- add to form for searc button -->
               <form class="d-flex" action="#" method="get">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -603,16 +616,16 @@
                 <h4>Menu —</h4>
                 <div class="col-md-6">
                       <ul class="pages">
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">Projects</a></li>
-                          <li><a href="#">What We Do</a></li>
+                          <li><a href="HomePage.html">Home</a></li>
+                          <li><a href="Projects_new.html">Projects</a></li>
+                          <li><a href="aboutus.html">What We Do</a></li>
                           <li><a href="#">Our Mission</a></li>
                       </ul>
                   </div>
                 <div class="col-md-6">
                       <ul class="list">
-                          <li><a href="#">About Us</a></li>
-                          <li><a href="#">Contacts</a></li>
+                          <li><a href="aboutus.html">About Us</a></li>
+                          <li><a href="contact us.html">Contacts</a></li>
                           <li><a href="#">Terms & Condition</a></li>
                           <li><a href="#">Privacy Policy</a></li>
                           <li><a href="#">Procurement</a></li>
@@ -621,7 +634,7 @@
               </div>
             <div class="col-md-2 footer-social animated fadeInDown">
                 <h4>Follow Us</h4>
-                <ul>
+                <ul>S
                     <li><a href="#">Facebook</a></li>
                     <li><a href="#">Twitter</a></li>
                     <li><a href="#">Instagram</a></li>
